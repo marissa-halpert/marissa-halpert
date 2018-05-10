@@ -1,3 +1,58 @@
+:root {
+    --primary-color: rgba(84,18,60,.78);
+    --black: #000;
+}
+
+html {
+    background-color: #e2e5ec;
+}
+
 h1 {
-    color: purple;
+    color: var(--primary-color);
+    font-family: 'Ubuntu', Arial;
+    text-transform: uppercase;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: var(--black);
+    font-family: 'Ubuntu', Arial;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+p {
+    color: var(--black);
+    font-family: 'Ubuntu', Arial;
+    font-size: 16px;
+    line-height: 1.4;
+    margin: 0 5rem;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.left {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.right {
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.marissa {
+    height: 100vh;
+    float: right;
+}
+
+.content {
+    display: flex;
+
+    align-items: center;
 }
