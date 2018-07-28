@@ -1,0 +1,97 @@
+@import 'components/Foo';
+
+@import 'suitcss';
+@import 'vendor/webslides.css';
+
+/* custom media queries */
+@custom-media --sm-viewport (min-width: 0);
+@custom-media --sm-only-viewport (max-width: 750px);
+@custom-media --md-viewport (min-width: 750px);
+@custom-media --md-only-viewport (min-width: 750px) and (max-width: 960px);
+@custom-media --lg-viewport (min-width: 960px);
+
+:root {
+    --Grid-gutter-size: 10px; /* suitcss property overwrite */
+    --Grid-max-width: 1200px; /* custom property */
+
+    --font-family: Ubuntu, Arial, sans-serif;
+    --font-size: 1rem;
+
+    --primary-color: rgba(84,18,60,.78);
+    --gray: #e2e5ec;
+    --black: #000;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    background-color: var(--gray);
+}
+
+.Grid {
+    margin: 0 auto;
+    max-width: var(--Grid-max-width);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    color: var(--primary-color);
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 1.3;
+
+    @media(--md-viewport) {
+        font-size: 7rem;
+    }
+
+    @media(--lg-viewport) {
+        font-size: 6rem;
+    }
+}
+
+h4 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+}
+
+h5 {
+    font-size: 1.5rem;
+}
+
+section {
+    padding: 0 2rem !important;
+    width: 100% !important;
+
+    @media(--md-viewport) {
+        padding: 0 10rem !important;
+    }
+
+    @media(--lg-viewport) {
+        padding: 0 14rem !important;
+    }
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
+}
+
+ul {
+    text-align: left;
+    font-size: 2rem;
+}
+
+img {
+    margin-bottom: 10px;
+    height: 18rem;
+}
+
+img:hover {
+    opacity: 1 !important;
+}
