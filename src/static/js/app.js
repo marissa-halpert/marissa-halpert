@@ -1,11 +1,9 @@
-// import WebSlides from 'webslides';
-
-// window.onload = () => {
-const ws = new WebSlides({
-    loop: false,
-    nav: true,
-});
-
+window.onload = () => {
+    const ws = new WebSlides({
+        loop: false,
+        nav: true,
+    });
+}
 console.log("How do I navigate this website?!");
 console.log("↑: Go to previous slide.");
 console.log("↓: Go to the next slide.");

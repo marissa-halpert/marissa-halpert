@@ -1,5 +1,6 @@
 @import 'components/Portfolio';
 @import 'components/Typography';
+@import 'components/Social';
 @import 'suitcss';
 @import 'vendor/webslides.css';
 
@@ -27,6 +28,7 @@ body {
 
 ::selection {
     background: #ffb7b7;
+    color: #000;
 }
 
 section {
@@ -48,7 +50,7 @@ section {
 
 ul {
     text-align: left;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: var(--primary-color);
     margin: 0;
 
@@ -56,29 +58,3 @@ ul {
         margin: 0 5rem;
     }
 }
-
-.Arrow {
-    position: fixed;
-    bottom: 40px;
-    left: 20px;
-    animation: scrolldown 2s infinite ease;
-    height: 40px;
-}
-
-
-@keyframes scrolldown {
-    0% {
-        transform: rotate(180deg) translateY(40px);
-        opacity: 0;
-    }
-
-    50% {
-        opacity: 1;
-    }
-
-    100% {
-        transform: rotate(180deg) translateY(-20px);
-        opacity: 1;
-    }
-}
-
