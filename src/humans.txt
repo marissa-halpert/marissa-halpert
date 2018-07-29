@@ -1,15 +1,12 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
+# CREATOR
 
-    ISL -- Digital Creative Agency -- @istrategylabs
-
-# THANKS
-
-    
+    Marissa Halpert
 
 # TECHNOLOGY COLOPHON
 
-    ES2015, CSS3, HTML5
+    ES2016, CSS3, HTML5
        Gulp, Webpack, Babel, SUITCSS, Nunjucks
+       WebSlides
