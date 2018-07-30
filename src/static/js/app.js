@@ -5,8 +5,8 @@ window.onload = () => {
     });
 }
 console.log("How do I navigate this website?!");
-console.log("↑: Go to previous slide.");
-console.log("↓: Go to the next slide.");
+console.log("←: Go to previous slide.");
+console.log("→: Go to the next slide.");
 console.log("Page Up: Go to the previous slide.");
 console.log("Page Down: Go to the next slide.");
 console.log("Space: Go to the next slide.");
