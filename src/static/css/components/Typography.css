@@ -29,3 +29,25 @@ h4 {
 h5 {
     font-size: 1.5rem;
 }
+
+.wave {
+    animation: wave 1s ease-out infinite;
+    padding: 0 2rem 1rem 1rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+@keyframes wave {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+}

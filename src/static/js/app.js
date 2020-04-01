@@ -2,8 +2,12 @@ window.onload = () => {
     const ws = new WebSlides({
         loop: false,
         nav: true,
+        showIndex: false
     });
 }
+
+console.log("Welcome to my site!");
+console.log("Email me at marissa.halpert@gmail.com");
 console.log("How do I navigate this website?!");
 console.log("←: Go to previous slide.");
 console.log("→: Go to the next slide.");
