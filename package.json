@@ -44,7 +44,7 @@
     "chromedriver": "^2.29.0",
     "cucumber": "2.0.0-rc.9",
     "finalhandler": "^1.0.2",
-    "nightwatch": "^0.9.14",
+    "nightwatch": "^2.3.9",
     "nightwatch-cucumber": "^7.1.2",
     "selenium-server": "^3.4.0",
     "serve-static": "^1.12.2",
