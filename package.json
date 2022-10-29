@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "axe-core": "^2.2.0",
-    "browser-sync": "^2.18.8",
+    "browser-sync": "^2.27.10",
     "chromedriver": "^2.29.0",
     "cucumber": "2.0.0-rc.9",
     "finalhandler": "^1.0.2",
