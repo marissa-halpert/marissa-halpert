@@ -19,7 +19,7 @@
     "convict": "^3.0.0",
     "critical": "^0.8.4",
     "del": "^2.2.2",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-clean-css": "^3.0.4",
     "gulp-header": "^1.8.8",
     "gulp-htmlmin": "^3.0.0",
