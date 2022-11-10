@@ -35,8 +35,8 @@
     "postcss-nested": "^1.0.1",
     "run-sequence": "^1.2.2",
     "suitcss": "^3.0.0",
-    "webpack": "^2.3.3",
-    "webpack-stream": "^3.2.0"
+    "webpack": "^5.75.0",
+    "webpack-stream": "^7.0.0"
   },
   "devDependencies": {
     "axe-core": "^2.2.0",
